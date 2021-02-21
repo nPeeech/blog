@@ -3,6 +3,7 @@ languageCode = "ja-jp"
 title = "いつか黒歴史"
 theme = "nLegacy-theme"
 hasCJKLanguage = true
+publishDir = "docs"
 
 [params]
     AuthorName = "nPeeech"

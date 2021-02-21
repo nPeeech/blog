@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/archives/2020-12/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/archives/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/raspberry-pi/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-12-17T16:24:35+09:00</lastmod>
+  </url>
+  
+</urlset>
