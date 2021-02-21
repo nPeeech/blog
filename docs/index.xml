@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>いつか黒歴史</title>
-    <link>http://example.org/</link>
+    <link>https://npeeech.github.io/blog/</link>
     <description>Recent content on いつか黒歴史</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 17 Dec 2020 16:44:53 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 16:44:53 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KKHMF_USB_to_UART_TTL_RS232_PL2303HX_ワイヤーアダプタ変換ケーブルRaspberry_Pi_Arduino用でRaspberry_PiとWin10を接続する</title>
-      <link>http://example.org/kkhmf_usb_to_uart_ttl_rs232_pl2303hx_%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%ABraspberry_pi_arduino%E7%94%A8%E3%81%A7raspberry_pi%E3%81%A8win10%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B/</link>
+      <link>https://npeeech.github.io/blog/kkhmf_usb_to_uart_ttl_rs232_pl2303hx_%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%ABraspberry_pi_arduino%E7%94%A8%E3%81%A7raspberry_pi%E3%81%A8win10%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B/</link>
       <pubDate>Thu, 17 Dec 2020 16:44:53 +0900</pubDate>
       
-      <guid>http://example.org/kkhmf_usb_to_uart_ttl_rs232_pl2303hx_%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%ABraspberry_pi_arduino%E7%94%A8%E3%81%A7raspberry_pi%E3%81%A8win10%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B/</guid>
+      <guid>https://npeeech.github.io/blog/kkhmf_usb_to_uart_ttl_rs232_pl2303hx_%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%ABraspberry_pi_arduino%E7%94%A8%E3%81%A7raspberry_pi%E3%81%A8win10%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B/</guid>
       <description>※メモ書きです． 動機 SSHが使いにくい環境なので，いつかに聞いたシリアルコンソールを使ってみようと思った． 使ったもの Raspberry Pi 3 model B KKHMF USB to UART TTL RS232 PL2303HX</description>
     </item>
     
     <item>
       <title>RaspberryPiとシリアルコンソールでファイルを送受信する</title>
-      <link>http://example.org/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/</link>
+      <link>https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/</link>
       <pubDate>Thu, 17 Dec 2020 16:24:35 +0900</pubDate>
       
-      <guid>http://example.org/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/</guid>
+      <guid>https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/</guid>
       <description>※メモです 動機 SSHが使いにくい環境なので，シリアルコンソールで作業をしているのだが，ファイルの送受信の仕方がわからなかったのでメモとして残</description>
     </item>
     
