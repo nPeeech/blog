@@ -4,6 +4,7 @@ title = "いつか黒歴史"
 theme = "nLegacy-theme"
 hasCJKLanguage = true
 publishDir = "docs"
+canonifyurls = true
 
 [params]
     AuthorName = "nPeeech"
