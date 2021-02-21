@@ -1,0 +1,3 @@
+[submodule "themes/nLegacy-theme"]
+	path = themes/nLegacy-theme
+	url = https://github.com/nPeeech/nLegacy-theme.git
