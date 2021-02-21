@@ -45,8 +45,8 @@ Raspberry Pi側が以下で受信状態に入る．
 rz
 ```
 
-Tera Termで`ファイル` -> `転送` -> `ZMODEM` -> `送信`からファイルを選択する．
-{{< img500 "transmit.png" >}}
+Tera Termで`ファイル` -> `転送` -> `ZMODEM` -> `送信`からファイルを選択する．  
+{{< img500 "transmit.png" >}}  
 
 ## Raspberry Pi -> Tera Term
 
@@ -55,8 +55,8 @@ Raspberry Pi側でファイルを送信する．
 sz [ファイル名]
 ```
 
-Tera Termで`ファイル` -> `転送` -> `ZMODEM` -> `受信` からファイルを選択する．
-{{< img500 "recieve.png" >}}
+Tera Termで`ファイル` -> `転送` -> `ZMODEM` -> `受信` からファイルを選択する．  
+{{< img500 "recieve.png" >}}  
 
 ### 受信したファイルの場所
 `C:\Users\<ユーザー名>\AppData\Local\VirtualStore\Program Files (x86)\teraterm`に入っていた．

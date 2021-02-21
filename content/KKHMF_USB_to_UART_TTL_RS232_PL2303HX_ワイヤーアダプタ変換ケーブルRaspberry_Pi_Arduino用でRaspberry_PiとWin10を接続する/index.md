@@ -26,10 +26,10 @@ http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=225&pcid=41
 
 `PL2303HX Windows10`で検索してみるとありがたいことにこの問題を解決するソフトがあるようだったので，使わせていただいた．
 
-[Prolific PL-2303 Code 10 Fix](http://www.ifamilysoftware.com/news37.html)
+[Prolific PL-2303 Code 10 Fix](http://www.ifamilysoftware.com/news37.html)  
 
 動いた  
-{{< img500 device_property.png >}}
+{{< img500 device_property.png >}}  
 
 ## Raspberry PiのSerial Portをenableする
 SSHが使えたので，`sudo raspi-config`から`Interface Option` -> `Serial Port`で有効化させた．
@@ -44,11 +44,11 @@ Amazonのレビューによるとケーブルは以下のようになってい�
 Raspberry PiのGPIOは以下のサイトが見やすかった．  
 https://pinout.xyz/  
 
-これらを参考に接続し，以下のようになった．
-{{< img500 RPipin.jpg >}}
+これらを参考に接続し，以下のようになった．  
+{{< img500 RPipin.jpg >}}  
 
 あとはWindows側でTera Term等を使えば接続できるはずである．
 
 ## おまけ
 デフォルトで9600bpsなのでslがのんびりする．  
-{{< youtube htqv9upQmL4 >}}
+{{< youtube htqv9upQmL4 >}}  
