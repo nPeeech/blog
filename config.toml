@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://npeeech.github.io/blog/"
 languageCode = "ja-jp"
 title = "いつか黒歴史"
 theme = "nLegacy-theme"
