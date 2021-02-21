@@ -84,20 +84,29 @@
   
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#受信したファイルの場所">受信したファイルの場所</a></li>
+    <li><a href="#動機">動機</a></li>
+    <li><a href="#環境">環境</a></li>
+    <li><a href="#転送プロトコル">転送プロトコル</a></li>
+    <li><a href="#raspberry-pi側の準備">Raspberry Pi側の準備</a></li>
+    <li><a href="#tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</a></li>
+    <li><a href="#raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</a>
+      <ul>
+        <li><a href="#受信したファイルの場所">受信したファイルの場所</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   <p>※メモです</p>
 <!-- raw HTML omitted -->
-<h1 id="動機">動機</h1>
+<h2 id="動機">動機</h2>
 <p>SSHが使いにくい環境なので，シリアルコンソールで作業をしているのだが，ファイルの送受信の仕方がわからなかったのでメモとして残す．</p>
-<h1 id="環境">環境</h1>
+<h2 id="環境">環境</h2>
 <ul>
 <li>Raspberry Pi 3 model B</li>
 <li><a href="https://www.amazon.co.jp/dp/B01I500OWK">KKHMF USB to UART TTL RS232 PL2303HX ワイヤーアダプタ変換ケーブルRaspberry Pi Arduino用</a></li>
 <li>Tera Term</li>
 </ul>
-<h1 id="転送プロトコル">転送プロトコル</h1>
+<h2 id="転送プロトコル">転送プロトコル</h2>
 <ul>
 <li>XMODEM</li>
 </ul>
@@ -117,12 +126,12 @@
 <p>ZMODEM（ぜっともでむ）とは、バイナリ転送プロトコルの一種である。YMODEMを開発したChuck Forsbergにより1986年に開発された。 <a href="https://ja.wikipedia.org/wiki/ZMODEM">wikipediaより</a></p>
 </blockquote>
 <p>後継のようなのでZMODEMを使うことにする．</p>
-<h1 id="raspberry-pi側の準備">Raspberry Pi側の準備</h1>
+<h2 id="raspberry-pi側の準備">Raspberry Pi側の準備</h2>
 <p>インストール</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt upgrade
 sudo apt install lrzsz
-</code></pre></div><h1 id="tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</h1>
+</code></pre></div><h2 id="tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</h2>
 <p>Raspberry Pi側が以下で受信状態に入る．</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rz
 </code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>送信</code>からファイルを選択する．
@@ -137,7 +146,7 @@ sudo apt install lrzsz
 		<img src="http://example.org/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/transmit_hu57fc5326bf8f0811fdaeeda28987af5e_112233_500x500_fit_q70_bgffffff_box_2.jpg" alt="" style="width: min(100%, 500px);">
 	</a>
 </p>
-<h1 id="raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</h1>
+<h2 id="raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</h2>
 <p>Raspberry Pi側でファイルを送信する．</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sz <span style="color:#f92672">[</span>ファイル名<span style="color:#f92672">]</span>
 </code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>受信</code> からファイルを選択する．
@@ -152,7 +161,7 @@ sudo apt install lrzsz
 		<img src="http://example.org/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/recieve_hu946db25a1af368dc43d0991fa9cb32a8_111090_500x500_fit_q70_bgffffff_box_2.jpg" alt="" style="width: min(100%, 500px);">
 	</a>
 </p>
-<h2 id="受信したファイルの場所">受信したファイルの場所</h2>
+<h3 id="受信したファイルの場所">受信したファイルの場所</h3>
 <p><code>C:\Users\&lt;ユーザー名&gt;\AppData\Local\VirtualStore\Program Files (x86)\teraterm</code>に入っていた．</p>
 
 
