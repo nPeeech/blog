@@ -1,0 +1,19 @@
+.article-summary {
+    color: brown;
+}
+
+.article-date {
+    color: green;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+.article-tag {
+    text-decoration: none;
+    background: linear-gradient(to bottom, whitesmoke, silver, whitesmoke);
+    color: black;
+    padding: 2px;
+    margin: 2px;
+}
