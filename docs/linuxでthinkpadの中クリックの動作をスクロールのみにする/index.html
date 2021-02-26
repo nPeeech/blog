@@ -77,15 +77,40 @@
         
     </div>
 </header><div id="content">
-Archives
+  
+    <a class="article-date" href="https://npeeech.github.io/blog/archives/2020-08/">2020年8月1日</a>
+  
+  <h1>LinuxでThinkPadの中クリックの動作をスクロールのみにする</h1>
+  
+    <a class="article-tag" href="https://npeeech.github.io/blog/tags/linux/">Linux</a>
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#環境">環境</a></li>
+    <li><a href="#方針">方針</a></li>
+    <li><a href="#やり方">やり方</a></li>
+    <li><a href="#永続化する">永続化する</a></li>
+  </ul>
+</nav>
+  <h2 id="はじめに">はじめに</h2>
+<p>LinuxのドライバーはWindowsのそれより優秀なようでThinkPadの中クリックに本来の動作とスクロールの動作を同居させることができます．<br>
+しかし，私はスクロールのみの動作をしてもらっていたほうが使いやすいです．</p>
+<h2 id="環境">環境</h2>
+<pre><code>Linux thinkingpad 5.4.52-1-MANJARO #1 SMP PREEMPT Thu Jul 16 16:07:11 UTC 2020 x86_64 GNU/Linux
+</code></pre><h2 id="方針">方針</h2>
+<p><a href="https://npeeech.github.io/blog/linux%E3%81%A7%E4%B8%AD%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AB%E3%82%88%E3%82%8B%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%82%92%E7%84%A1%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/">Linuxで中クリックによるペーストを無効化する</a><br>
+(こちらの記事を書いていたときにふと思いついたものなので，もっといい方法があると思います．  )</p>
+<p>xbindkeysで中クリックの判定を吸い込みます．</p>
+<h2 id="やり方">やり方</h2>
+<p><code>/home/[username]/.xbindkeysrc</code>に以下を記述します．</p>
+<pre><code>&quot;&quot;
+b:2
+</code></pre><p><code>b:2</code>というのが中クリックのことです．</p>
+<p><code>xbindkeys -p</code>でxbindkeysを起動します．</p>
+<h2 id="永続化する">永続化する</h2>
+<p><code>/home/[username]/.xprofile</code>に&rsquo;xbindkeys -p`を追記する．</p>
 
-<ul>
-    
-    <li><a href="https://npeeech.github.io/blog/archives/2020-12/">2020-12</a></li>
-    
-    <li><a href="https://npeeech.github.io/blog/archives/2020-08/">2020-08</a></li>
-    
-</ul>
 
         </div><footer>
     <p id="copyright">

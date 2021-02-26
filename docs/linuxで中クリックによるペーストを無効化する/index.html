@@ -77,15 +77,75 @@
         
     </div>
 </header><div id="content">
-Archives
-
+  
+    <a class="article-date" href="https://npeeech.github.io/blog/archives/2020-08/">2020年8月1日</a>
+  
+  <h1>Linuxで中クリックによるペーストを無効化する</h1>
+  
+    <a class="article-tag" href="https://npeeech.github.io/blog/tags/linux/">Linux</a>
+  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#環境">環境</a></li>
+    <li><a href="#使用コマンド">使用コマンド</a></li>
+    <li><a href="#方針">方針</a></li>
+    <li><a href="#やってみる">やってみる</a></li>
+    <li><a href="#永続化する">永続化する</a></li>
+    <li><a href="#tsuiki">追記</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+  <h2 id="はじめに">はじめに</h2>
+<p>ThinkPadは中クリックを押しながらTrackPointを動かすことでスクロールができます．便利です．<br>
+しかし，私が使っているThinkpad T480sは中クリックが押し続けにくく，スクロールしている最中に押す，離すが繰り返されます．<br>
+するとどうなるか&hellip;クリップボードの中身が連続でペーストされます．ブラウザやCalibre等でなら問題ないのですが，これがIDEで起こるとかなり悲惨なことになります．ストレスがマッハです．<br>
+これをどうにか無効化しようとがんばります．</p>
+<h2 id="環境">環境</h2>
+<pre><code>OS: Manjaro Linux x86_64 
+Host: 20L7CTO1WW ThinkPad T480s 
+Kernel: 5.4.52-1-MANJARO 
+Shell: bash 5.0.18  
+WM: i3 
+CPU: Intel i5-8250U (8) @ 3.400GHz 
+</code></pre><h2 id="使用コマンド">使用コマンド</h2>
 <ul>
-    
-    <li><a href="https://npeeech.github.io/blog/archives/2020-12/">2020-12</a></li>
-    
-    <li><a href="https://npeeech.github.io/blog/archives/2020-08/">2020-08</a></li>
-    
+<li>xsel</li>
+<li>xbindkeys</li>
+<li>xev</li>
+<li>xdotool</li>
 </ul>
+<h2 id="方針">方針</h2>
+<p>どうやら中クリックによるペースト自体を無効化することは難しいようです．<br>
+そこで，クリップボードの中身を消すという手段をとります．クリップボードにはPRIMARY,SECONDARY,CLIPBOARDがあり，中クリックによるペーストで使用されるものはPRIMARYです．また，右クリック-&gt;貼り付けで使用されるのはCLIPBOARDです．<br>
+中クリックを離したタイミングでペーストされるので，中クリックが押されたタイミングでPRIMARYをクリアします．</p>
+<h2 id="やってみる">やってみる</h2>
+<p><em><strong><a href="#tsuiki">追記</a>を見たほうが幸せになれると思います．</strong></em></p>
+<p>xevで中クリックを調べてみると以下のようです．</p>
+<pre><code>ButtonRelease event, serial 34, synthetic NO, window 0x3600001,
+    root 0x1a2, subw 0x0, time 5610176, (345,459), root:(1635,474),
+    state 0x200, button 2, same_screen YES
+</code></pre><p>先駆者様を参考にさせていただくと以下のように記述すれば良さそうです．<br>
+<code>/home/[username]/.xbindkeysrc</code></p>
+<pre><code>&quot;xsel --primary --clear&quot;
+b:2
+</code></pre><p>その後<code>xbindkeys -p</code>を実行します．</p>
+<h2 id="永続化する">永続化する</h2>
+<p><code>/home/[username]/.xprofile</code>に以下を追記します．</p>
+<pre><code>xbindkeys -p
+</code></pre><h2 id="tsuiki">追記</h2>
+<p><del>どうやら中クリックのもとの動作も上書きしてしまうようです．いずれどうにかします．</del> どうにかしました．<br>
+<code>/home/[username]/.xbindkeys</code></p>
+<pre><code>&quot;xsel --primary --clear; pkill xbindkeys; xdotool click 2; xbindkeys -p&quot;
+b:2
+</code></pre><p><code>xdotool click 2</code>でのループを避けるため<code>pkill xbindkeys</code>します．</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="https://wiki.archlinux.jp/index.php/Xbindkeys">Xbindkeys - ArchWiki</a></li>
+<li><a href="https://wiki.archlinux.jp/index.php/%E3%82%AF%E3%83%AA%E3%83%83%E3%83%97%E3%83%9C%E3%83%BC%E3%83%89">クリップボード - ArchWiki</a></li>
+<li><a href="https://medium.com/@Aenon/bind-mouse-buttons-to-keys-or-scripts-under-linux-with-xbindkeys-and-xvkbd-7e6e6fcf4cba">Bind Mouse Buttons to Keys or Scripts under Linux with xbindkeys and xvkbd</a></li>
+</ul>
+
 
         </div><footer>
     <p id="copyright">
