@@ -1,5 +1,5 @@
 ---
-title: "KKHMF_USB_to_UART_TTL_RS232_PL2303HX_ワイヤーアダプタ変換ケーブルRaspberry_Pi_Arduino用でRaspberry_PiとWin10を接続する"
+title: "KKHMF USB to UART TTL RS232 PL2303HX ワイヤーアダプタ変換ケーブルRaspberry Pi Arduino用でRaspberry PiとWin10を接続する"
 date: 2020-12-17T16:44:53+09:00
 draft: false
 archives: 2020-12

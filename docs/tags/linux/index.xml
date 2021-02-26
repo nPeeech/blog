@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/tags/linux/</link>
+    <description>Recent content in Linux on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 08 Dec 2020 12:19:48 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebRTCを使ったカメラ付きラジコンカーをつくりたい</title>
+      <link>https://npeeech.github.io/blog/webrtc%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%AB%E3%83%A1%E3%83%A9%E4%BB%98%E3%81%8D%E3%83%A9%E3%82%B8%E3%82%B3%E3%83%B3%E3%82%AB%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%9F%E3%81%84/</link>
+      <pubDate>Tue, 08 Dec 2020 12:19:48 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/webrtc%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%AB%E3%83%A1%E3%83%A9%E4%BB%98%E3%81%8D%E3%83%A9%E3%82%B8%E3%82%B3%E3%83%B3%E3%82%AB%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%9F%E3%81%84/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2020の10日目です． WebRTC Native Client MomoとRaspberry Piを使って，遠くから操作できるカメラ</description>
+    </item>
+    
+  </channel>
+</rss>
