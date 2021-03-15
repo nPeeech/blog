@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019-12 on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/archives/2019-12/</link>
+    <description>Recent content in 2019-12 on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 15 Dec 2019 22:09:19 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/archives/2019-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pi_Cameraで音声を含む録画をした時のメモ</title>
+      <link>https://npeeech.github.io/blog/pi_camera%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E5%90%AB%E3%82%80%E9%8C%B2%E7%94%BB%E3%82%92%E3%81%97%E3%81%9F%E6%99%82%E3%81%AE%E3%83%A1%E3%83%A2/</link>
+      <pubDate>Sun, 15 Dec 2019 22:09:19 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/pi_camera%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E5%90%AB%E3%82%80%E9%8C%B2%E7%94%BB%E3%82%92%E3%81%97%E3%81%9F%E6%99%82%E3%81%AE%E3%83%A1%E3%83%A2/</guid>
+      <description>はじめに Raspbian BusterでFFmpegを使い、Webカメラから音声を含む映像を取得している記事がなかったため、メモとして残します． 時間があれば</description>
+    </item>
+    
+  </channel>
+</rss>
