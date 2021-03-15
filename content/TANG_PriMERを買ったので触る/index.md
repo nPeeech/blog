@@ -2,7 +2,7 @@
 title: "TANG_PriMERを買ったので触る"
 date: 2020-06-15T21:35:41+09:00
 draft: false
-archives: 2020-60
+archives: 2020-06
 tags:
     - 環境構築シリーズ
     - FPGA

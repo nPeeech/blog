@@ -99,8 +99,7 @@
 時間があればきれいにします．
 この記事はエラーの対処のみを書き、ffmpegでの録画の仕方は解説しません。参考にさせていただいた記事を見ていただくようお願いします．</p>
 <h2 id="音声がうまく取れない">音声がうまく取れない</h2>
-<p><a href="https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html">https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html</a>
-こちらの記事を参考にさせていただいたところ、どうもRaspbian Buster環境もしくは最新(2019年12月当時)のffmpeg,ALSA環境だとエラーが出るようです．
+<p><a href="https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html">こちらの記事</a>を参考にさせていただいたところ、どうもRaspbian Buster環境もしくは最新(2019年12月当時)のffmpeg,ALSA環境だとエラーが出るようです．
 以下のような引数で実行したところ，以下のようなエラーが出ました．</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -f alsa -thread_queue_size <span style="color:#ae81ff">8192</span> -i hw:1,0 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  -f v4l2 -thread_queue_size <span style="color:#ae81ff">8192</span> -s 640x480 -i /dev/video0 <span style="color:#ae81ff">\

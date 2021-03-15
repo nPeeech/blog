@@ -14,8 +14,8 @@ Raspbian BusterでFFmpegを使い、Webカメラから音声を含む映像を�
 
 
 ## 音声がうまく取れない
-https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html
-こちらの記事を参考にさせていただいたところ、どうもRaspbian Buster環境もしくは最新(2019年12月当時)のffmpeg,ALSA環境だとエラーが出るようです．
+[こちらの記事](https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html
+)を参考にさせていただいたところ、どうもRaspbian Buster環境もしくは最新(2019年12月当時)のffmpeg,ALSA環境だとエラーが出るようです．
 以下のような引数で実行したところ，以下のようなエラーが出ました．
 
 ```bash
