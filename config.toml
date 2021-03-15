@@ -5,6 +5,7 @@ theme = "nLegacy-theme"
 hasCJKLanguage = true
 publishDir = "docs"
 canonifyurls = true
+googleAnalytics = "G-B091BVYLCR"
 
 [params]
     AuthorName = "nPeeech"
