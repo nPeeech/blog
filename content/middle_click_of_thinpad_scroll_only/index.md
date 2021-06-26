@@ -16,7 +16,7 @@ Linux thinkingpad 5.4.52-1-MANJARO #1 SMP PREEMPT Thu Jul 16 16:07:11 UTC 2020 x
 ```
 
 ## 方針
-[Linuxで中クリックによるペーストを無効化する]({{< ref "/Linuxで中クリックによるペーストを無効化する/index.md" >}})  
+[Linuxで中クリックによるペーストを無効化する]({{< ref "/disable_middle_click_paste/index.md" >}})  
 (こちらの記事を書いていたときにふと思いついたものなので，もっといい方法があると思います．  )  
 
 xbindkeysで中クリックの判定を吸い込みます．  

@@ -67,7 +67,7 @@
     <link rel="icon" type="image/png" sizes="24x24" href="https://npeeech.github.io/blog/favicon/icon-24x24.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://npeeech.github.io/blog/favicon/icon-32x32.png">
     <title>
-         RaspberryPiとシリアルコンソールでファイルを送受信する |  いつか黒歴史
+         LinuxでThinkPadの中クリックの動作をスクロールのみにする |  いつか黒歴史
     </title>
 </head><body><header>
     <div id="header-visual">
@@ -90,93 +90,38 @@
     </div>
 </header><div id="content">
   
-    <a class="article-date" href="https://npeeech.github.io/blog/archives/2020-12/">2020年12月17日</a>
+    <a class="article-date" href="https://npeeech.github.io/blog/archives/2020-08/">2020年8月1日</a>
   
-  <h1>RaspberryPiとシリアルコンソールでファイルを送受信する</h1>
+  <h1>LinuxでThinkPadの中クリックの動作をスクロールのみにする</h1>
   
-    <a class="article-tag" href="https://npeeech.github.io/blog/tags/raspberry-pi/">Raspberry Pi</a>
+    <a class="article-tag" href="https://npeeech.github.io/blog/tags/linux/">Linux</a>
   
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#動機">動機</a></li>
+    <li><a href="#はじめに">はじめに</a></li>
     <li><a href="#環境">環境</a></li>
-    <li><a href="#転送プロトコル">転送プロトコル</a></li>
-    <li><a href="#raspberry-pi側の準備">Raspberry Pi側の準備</a></li>
-    <li><a href="#tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</a></li>
-    <li><a href="#raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</a>
-      <ul>
-        <li><a href="#受信したファイルの場所">受信したファイルの場所</a></li>
-      </ul>
-    </li>
+    <li><a href="#方針">方針</a></li>
+    <li><a href="#やり方">やり方</a></li>
+    <li><a href="#永続化する">永続化する</a></li>
   </ul>
 </nav>
-  <p>※メモです</p>
-<!-- raw HTML omitted -->
-<h2 id="動機">動機</h2>
-<p>SSHが使いにくい環境なので，シリアルコンソールで作業をしているのだが，ファイルの送受信の仕方がわからなかったのでメモとして残す．</p>
+  <h2 id="はじめに">はじめに</h2>
+<p>LinuxのドライバーはWindowsのそれより優秀なようでThinkPadの中クリックに本来の動作とスクロールの動作を同居させることができます．<br>
+しかし，私はスクロールのみの動作をしてもらっていたほうが使いやすいです．</p>
 <h2 id="環境">環境</h2>
-<ul>
-<li>Raspberry Pi 3 model B</li>
-<li><a href="https://www.amazon.co.jp/dp/B01I500OWK">KKHMF USB to UART TTL RS232 PL2303HX ワイヤーアダプタ変換ケーブルRaspberry Pi Arduino用</a></li>
-<li>Tera Term</li>
-</ul>
-<h2 id="転送プロトコル">転送プロトコル</h2>
-<ul>
-<li>XMODEM</li>
-</ul>
-<blockquote>
-<p>XMODEM（えっくすもでむ）は、バイナリ転送プロトコルの一種である。128バイト単位で非同期通信を行う。開発者の Ward Christensen がパブリックドメイン扱いで仕様を公開したため、パソコン通信で広く使われた。XMODEMを元に考案されたプロトコルも多く、またXMODEM自身にもいくつかのタイプがある。  <a href="https://ja.wikipedia.org/wiki/XMODEM">wikipediaより</a></p>
-</blockquote>
-<ul>
-<li>YMODEM</li>
-</ul>
-<blockquote>
-<p>YMODEM（わいもでむ）とは、バイナリ転送プロトコルの一種である。XMODEMやMODEM7を発展させたもので、Chuck Forsbergにより開発され、1985年にYMODEMという名称がつけられた。  <a href="https://ja.wikipedia.org/wiki/YMODEM">wikipediaより</a></p>
-</blockquote>
-<ul>
-<li>ZMODEM</li>
-</ul>
-<blockquote>
-<p>ZMODEM（ぜっともでむ）とは、バイナリ転送プロトコルの一種である。YMODEMを開発したChuck Forsbergにより1986年に開発された。 <a href="https://ja.wikipedia.org/wiki/ZMODEM">wikipediaより</a></p>
-</blockquote>
-<p>後継のようなのでZMODEMを使うことにする．</p>
-<h2 id="raspberry-pi側の準備">Raspberry Pi側の準備</h2>
-<p>インストール</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
-sudo apt upgrade
-sudo apt install lrzsz
-</code></pre></div><h2 id="tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</h2>
-<p>Raspberry Pi側が以下で受信状態に入る．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rz
-</code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>送信</code>からファイルを選択する．<br>
-
-
-	
-
-
-
-	
-	<a href="https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/transmit.png">
-		<img src="https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/transmit_hu57fc5326bf8f0811fdaeeda28987af5e_112233_500x500_fit_q70_bgffffff_box_2.jpg" alt="" style="width: min(100%, 500px);">
-	</a>
-</p>
-<h2 id="raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</h2>
-<p>Raspberry Pi側でファイルを送信する．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sz <span style="color:#f92672">[</span>ファイル名<span style="color:#f92672">]</span>
-</code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>受信</code> からファイルを選択する．<br>
-
-
-	
-
-
-
-	
-	<a href="https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/recieve.png">
-		<img src="https://npeeech.github.io/blog/raspberrypi%E3%81%A8%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%80%81%E5%8F%97%E4%BF%A1%E3%81%99%E3%82%8B/recieve_hu946db25a1af368dc43d0991fa9cb32a8_111090_500x500_fit_q70_bgffffff_box_2.jpg" alt="" style="width: min(100%, 500px);">
-	</a>
-</p>
-<h3 id="受信したファイルの場所">受信したファイルの場所</h3>
-<p><code>C:\Users\&lt;ユーザー名&gt;\AppData\Local\VirtualStore\Program Files (x86)\teraterm</code>に入っていた．</p>
+<pre><code>Linux thinkingpad 5.4.52-1-MANJARO #1 SMP PREEMPT Thu Jul 16 16:07:11 UTC 2020 x86_64 GNU/Linux
+</code></pre><h2 id="方針">方針</h2>
+<p><a href="https://npeeech.github.io/blog/disable_middle_click_paste/">Linuxで中クリックによるペーストを無効化する</a><br>
+(こちらの記事を書いていたときにふと思いついたものなので，もっといい方法があると思います．  )</p>
+<p>xbindkeysで中クリックの判定を吸い込みます．</p>
+<h2 id="やり方">やり方</h2>
+<p><code>/home/[username]/.xbindkeysrc</code>に以下を記述します．</p>
+<pre><code>&quot;&quot;
+b:2
+</code></pre><p><code>b:2</code>というのが中クリックのことです．</p>
+<p><code>xbindkeys -p</code>でxbindkeysを起動します．</p>
+<h2 id="永続化する">永続化する</h2>
+<p><code>/home/[username]/.xprofile</code>に&rsquo;xbindkeys -p`を追記する．</p>
 
 
         </div><footer>

@@ -9,37 +9,37 @@
     <lastBuildDate>Tue, 08 Dec 2020 12:19:48 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebRTCを使ったカメラ付きラジコンカーをつくりたい</title>
-      <link>https://npeeech.github.io/blog/webrtc%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%AB%E3%83%A1%E3%83%A9%E4%BB%98%E3%81%8D%E3%83%A9%E3%82%B8%E3%82%B3%E3%83%B3%E3%82%AB%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%9F%E3%81%84/</link>
+      <link>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</link>
       <pubDate>Tue, 08 Dec 2020 12:19:48 +0900</pubDate>
       
-      <guid>https://npeeech.github.io/blog/webrtc%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%AB%E3%83%A1%E3%83%A9%E4%BB%98%E3%81%8D%E3%83%A9%E3%82%B8%E3%82%B3%E3%83%B3%E3%82%AB%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%9F%E3%81%84/</guid>
+      <guid>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</guid>
       <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2020の10日目です． WebRTC Native Client MomoとRaspberry Piを使って，遠くから操作できるカメラ</description>
     </item>
     
     <item>
       <title>LinuxでThinkPadの中クリックの動作をスクロールのみにする</title>
-      <link>https://npeeech.github.io/blog/linux%E3%81%A7thinkpad%E3%81%AE%E4%B8%AD%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AE%E5%8B%95%E4%BD%9C%E3%82%92%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%AE%E3%81%BF%E3%81%AB%E3%81%99%E3%82%8B/</link>
+      <link>https://npeeech.github.io/blog/middle_click_of_thinpad_scroll_only/</link>
       <pubDate>Sat, 01 Aug 2020 16:10:48 +0900</pubDate>
       
-      <guid>https://npeeech.github.io/blog/linux%E3%81%A7thinkpad%E3%81%AE%E4%B8%AD%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AE%E5%8B%95%E4%BD%9C%E3%82%92%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%AE%E3%81%BF%E3%81%AB%E3%81%99%E3%82%8B/</guid>
+      <guid>https://npeeech.github.io/blog/middle_click_of_thinpad_scroll_only/</guid>
       <description>はじめに LinuxのドライバーはWindowsのそれより優秀なようでThinkPadの中クリックに本来の動作とスクロールの動作を同居させるこ</description>
     </item>
     
     <item>
       <title>Linuxで中クリックによるペーストを無効化する</title>
-      <link>https://npeeech.github.io/blog/linux%E3%81%A7%E4%B8%AD%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AB%E3%82%88%E3%82%8B%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%82%92%E7%84%A1%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</link>
+      <link>https://npeeech.github.io/blog/disable_middle_click_paste/</link>
       <pubDate>Sat, 01 Aug 2020 15:15:42 +0900</pubDate>
       
-      <guid>https://npeeech.github.io/blog/linux%E3%81%A7%E4%B8%AD%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AB%E3%82%88%E3%82%8B%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%82%92%E7%84%A1%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</guid>
+      <guid>https://npeeech.github.io/blog/disable_middle_click_paste/</guid>
       <description>はじめに ThinkPadは中クリックを押しながらTrackPointを動かすことでスクロールができます．便利です． しかし，私が使っているTh</description>
     </item>
     
     <item>
       <title>Pi_Cameraで音声を含む録画をした時のメモ</title>
-      <link>https://npeeech.github.io/blog/pi_camera%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E5%90%AB%E3%82%80%E9%8C%B2%E7%94%BB%E3%82%92%E3%81%97%E3%81%9F%E6%99%82%E3%81%AE%E3%83%A1%E3%83%A2/</link>
+      <link>https://npeeech.github.io/blog/picamera_ffmpeg/</link>
       <pubDate>Sun, 15 Dec 2019 22:09:19 +0900</pubDate>
       
-      <guid>https://npeeech.github.io/blog/pi_camera%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E5%90%AB%E3%82%80%E9%8C%B2%E7%94%BB%E3%82%92%E3%81%97%E3%81%9F%E6%99%82%E3%81%AE%E3%83%A1%E3%83%A2/</guid>
+      <guid>https://npeeech.github.io/blog/picamera_ffmpeg/</guid>
       <description>はじめに Raspbian BusterでFFmpegを使い、Webカメラから音声を含む映像を取得している記事がなかったため、メモとして残します． 時間があれば</description>
     </item>
     
