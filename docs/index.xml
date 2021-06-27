@@ -8,6 +8,15 @@
     <language>ja-jp</language>
     <lastBuildDate>Mon, 15 Mar 2021 22:59:31 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>WebRTCを使ったカメラ付きラジコンカーを作った</title>
+      <link>https://npeeech.github.io/blog/camera_car_using_webrtc/</link>
+      <pubDate>Sat, 26 Jun 2021 22:31:13 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/camera_car_using_webrtc/</guid>
+      <description>はじめに この記事は、WebRTCを使ったカメラ付きラジコンカーをつくりたいを実際に作ってみたというものです。つまり、カメラの付いたラジコン（</description>
+    </item>
+    
+    <item>
       <title>KKHMF USB to UART TTL RS232 PL2303HX ワイヤーアダプタ変換ケーブルRaspberry Pi Arduino用でRaspberry PiとWin10を接続する</title>
       <link>https://npeeech.github.io/blog/kkhmf_usb_to_uart_ttl_rs232_pl2303hx/</link>
       <pubDate>Thu, 17 Dec 2020 16:44:53 +0900</pubDate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>電子工作 on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</link>
+    <description>Recent content in 電子工作 on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 26 Jun 2021 22:31:13 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebRTCを使ったカメラ付きラジコンカーを作った</title>
+      <link>https://npeeech.github.io/blog/camera_car_using_webrtc/</link>
+      <pubDate>Sat, 26 Jun 2021 22:31:13 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/camera_car_using_webrtc/</guid>
+      <description>はじめに この記事は、WebRTCを使ったカメラ付きラジコンカーをつくりたいを実際に作ってみたというものです。つまり、カメラの付いたラジコン（</description>
+    </item>
+    
+  </channel>
+</rss>

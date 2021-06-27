@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://npeeech.github.io/blog/archives/2021-06/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/archives/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/tags/arduino/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/tags/linux/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/tags/raspberry-pi/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/tags/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/camera_car_using_webrtc/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npeeech.github.io/blog/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
+    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://npeeech.github.io/blog/</loc>
     <lastmod>2021-03-15T22:59:31+09:00</lastmod>
   </url>
@@ -13,33 +53,13 @@
   </url>
   
   <url>
-    <loc>https://npeeech.github.io/blog/archives/</loc>
-    <lastmod>2020-12-17T16:44:53+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://npeeech.github.io/blog/kkhmf_usb_to_uart_ttl_rs232_pl2303hx/</loc>
-    <lastmod>2020-12-17T16:44:53+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://npeeech.github.io/blog/tags/raspberry-pi/</loc>
-    <lastmod>2020-12-17T16:44:53+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://npeeech.github.io/blog/tags/</loc>
     <lastmod>2020-12-17T16:44:53+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://npeeech.github.io/blog/transfer_files_with_serial_console_on_raspi/</loc>
     <lastmod>2020-12-17T16:24:35+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://npeeech.github.io/blog/tags/linux/</loc>
-    <lastmod>2020-12-08T12:19:48+09:00</lastmod>
   </url>
   
   <url>

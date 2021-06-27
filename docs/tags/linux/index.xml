@@ -6,7 +6,16 @@
     <description>Recent content in Linux on いつか黒歴史</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 08 Dec 2020 12:19:48 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 22:31:13 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebRTCを使ったカメラ付きラジコンカーを作った</title>
+      <link>https://npeeech.github.io/blog/camera_car_using_webrtc/</link>
+      <pubDate>Sat, 26 Jun 2021 22:31:13 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/camera_car_using_webrtc/</guid>
+      <description>はじめに この記事は、WebRTCを使ったカメラ付きラジコンカーをつくりたいを実際に作ってみたというものです。つまり、カメラの付いたラジコン（</description>
+    </item>
+    
     <item>
       <title>WebRTCを使ったカメラ付きラジコンカーをつくりたい</title>
       <link>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</link>
