@@ -13,6 +13,7 @@
     
     
     
+    
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B091BVYLCR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -135,25 +136,41 @@
 <h2 id="インストール">インストール</h2>
 <p>Momoの<a href="https://github.com/shiguredo/momo/releases">Relese</a>より自分にあったファイルをダウンロードします．Raspberry Pi 2,3,4は<code>momo-&lt;VERSION&gt;_raspberry-pi-os_armv7.tar.gz</code>という名前のファイルです．<code>tar xvf [ファイル名]</code>で解凍できます．中にある<code>momo</code>が実行ファイルです．</p>
 <p>以下で必要なパッケージを入れておきます．</p>
-<pre><code>sudo apt-get install libnspr4 libnss3
+<pre tabindex="0"><code>sudo apt-get install libnspr4 libnss3
 </code></pre><h2 id="ローカルで動かす">ローカルで動かす</h2>
 <p>ひとまずRaspberry PiとAndroid端末がローカルネットワークにある状態で動かしてみます．</p>
 <p>Momoをtestモードで起動します．</p>
-<pre><code>./momo --no-audio-device test
+<pre tabindex="0"><code>./momo --no-audio-device test
 </code></pre><p>AndroidのChromeのアドレスバー以下を入力します．</p>
-<pre><code>&lt;Raspberry PiのIPアドレス&gt;:8080/html/test.html
+<pre tabindex="0"><code>&lt;Raspberry PiのIPアドレス&gt;:8080/html/test.html
 </code></pre><p>すると以下のようなページが表示されます．<br>
 
 
+
+	
+
+
 	
 
 
 
 	
-	<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/momop2p.jpg">
-		<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/momop2p_hu6ca6ec33d94ac90256b8f17d577a9972_75244_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px);">
-	</a>
-<br>
+	<figure style="display: inline-block;
+	border: thin #000000 solid;
+	border-radius: 8px;
+    padding: 10px;
+	margin: 5px;
+    max-width: 500px;
+	box-shadow: 0px 0px 10px gray;
+	background: radial-gradient(rgb(24, 24, 24) 0%, rgb(255, 255, 255) 80%);;
+	">
+		<figcaption style="font: sans-serif;"></figcaption>
+		
+		<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/momop2p.jpg">
+			<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/momop2p_hu6ca6ec33d94ac90256b8f17d577a9972_75244_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px); vertical-align: bottom;border: thin#000000 solid;">
+		</a>
+	</figure>
+ <br>
 Connectを押すことでカメラの映像が表示されます．
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -167,29 +184,45 @@ Connectを押すことでカメラの映像が表示されます．
 <p>けしからんネットワークにより，手元のRaspberry Piではうまく接続ができないので，長野県にいる知人に頼んで，Ubuntuで動かしてもらいました．<br>
 
 
+
+	
+
+
 	
 
 
 
 	
-	<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/naganoken.jpg">
-		<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/naganoken_hu11ef85ecbce96c832980b9ae17da8e65_1093401_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px);">
-	</a>
-</p>
+	<figure style="display: inline-block;
+	border: thin #000000 solid;
+	border-radius: 8px;
+    padding: 10px;
+	margin: 5px;
+    max-width: 500px;
+	box-shadow: 0px 0px 10px gray;
+	background: radial-gradient(rgb(24, 24, 24) 0%, rgb(255, 255, 255) 80%);;
+	">
+		<figcaption style="font: sans-serif;"></figcaption>
+		
+		<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/naganoken.jpg">
+			<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/naganoken_hu11ef85ecbce96c832980b9ae17da8e65_1093401_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px); vertical-align: bottom;border: thin#000000 solid;">
+		</a>
+	</figure>
+ </p>
 <h3 id="知人のubuntu上で環境構築">知人のUbuntu上で環境構築</h3>
 <p>Momoのインストールは省きます．</p>
 <p>どうやらカメラがついていないようなので，<a href="https://github.com/umlaeute/v4l2loopback">v4l2loopback</a>で仮想カメラを作ります．</p>
 <p>以下でビルドを行います．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/umlaeute/v4l2loopback.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/umlaeute/v4l2loopback.git
 make <span style="color:#f92672">&amp;&amp;</span> sudo make install
 </code></pre></div><p>読み込みます．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe v4l2loopback
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe v4l2loopback
 </code></pre></div><p>このままでは何も映っていないカメラなので，ffmpegで動画を流し込みます．<code>-stream_loop -1</code>で動画が無限ループします．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -stream_loop -1 -re -i <span style="color:#f92672">[</span>動画ファイル名<span style="color:#f92672">]</span>.mp4 -f v4l2 /dev/video0
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -stream_loop -1 -re -i <span style="color:#f92672">[</span>動画ファイル名<span style="color:#f92672">]</span>.mp4 -f v4l2 /dev/video0
 </code></pre></div><h3 id="動かしてみる">動かしてみる</h3>
 <p><a href="https://ayame-labo.shiguredo.jp/">Ayame Labo</a>にサインアップして，ルームIDとシグナリングキーを控えておきます．</p>
 <p>AyameモードでMomoを起動します．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./momo --no-audio-device ayame wss://ayame-labo.shiguredo.jp/signaling <span style="color:#f92672">[</span>Ayame LaboのルームID<span style="color:#f92672">]</span> --signaling-key <span style="color:#f92672">[</span>Ayame Laboのシグナリングキー<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./momo --no-audio-device ayame wss://ayame-labo.shiguredo.jp/signaling <span style="color:#f92672">[</span>Ayame LaboのルームID<span style="color:#f92672">]</span> --signaling-key <span style="color:#f92672">[</span>Ayame Laboのシグナリングキー<span style="color:#f92672">]</span>
 </code></pre></div><p><a href="https://ayame-labo.shiguredo.jp/">Ayame Labo</a>にサンプルがあるので，そちらを使わせていただきました．<br>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -209,19 +242,19 @@ make <span style="color:#f92672">&amp;&amp;</span> sudo make install
 今回は都合のいいシリアルデバイスがないので，<code>socat</code>で仮想シリアルデバイスを作ります．</p>
 <h3 id="仮想シリアルデバイスをつくる">仮想シリアルデバイスをつくる</h3>
 <p><code>socat</code>をインストールします．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install socat
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install socat
 </code></pre></div><p><a href="https://www.youtube.com/watch?v=iFmD-CeB96A">こちらの動画</a>をp参考にさせていただきました．
 以下を実行して表示されたシリアルポート同士が繋がっています．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">socat -d -d pty,raw,echo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span> pty,raw,echo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">2020/12/04 18:23:04 socat<span style="color:#f92672">[</span>1664<span style="color:#f92672">]</span> N PTY is /dev/pts/1
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">socat -d -d pty,raw,echo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span> pty,raw,echo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">2020/12/04 18:23:04 socat<span style="color:#f92672">[</span>1664<span style="color:#f92672">]</span> N PTY is /dev/pts/1
 2020/12/04 18:23:04 socat<span style="color:#f92672">[</span>1664<span style="color:#f92672">]</span> N PTY is /dev/pts/2
 2020/12/04 18:23:04 socat<span style="color:#f92672">[</span>1664<span style="color:#f92672">]</span> N starting data transfer loop with FDs <span style="color:#f92672">[</span>5,5<span style="color:#f92672">]</span> and <span style="color:#f92672">[</span>7,7<span style="color:#f92672">]</span>
 </code></pre></div><p>今回の場合は，<code>/dev/pts/1</code>と<code>/dev/pts/2</code>のようです．</p>
 <h3 id="--serialオプションを付けて動かしてみる">&ndash;serialオプションを付けて動かしてみる</h3>
 <p>今回のMomoの起動コマンドです．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./momo -- serial /dev/pts/1,9600 --no-audio-device ayame wss://ayame-labo.shiguredo.jp/signaling <span style="color:#f92672">[</span>ルームID<span style="color:#f92672">]</span> --signaling-key <span style="color:#f92672">[</span>シグナリングキー<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./momo -- serial /dev/pts/1,9600 --no-audio-device ayame wss://ayame-labo.shiguredo.jp/signaling <span style="color:#f92672">[</span>ルームID<span style="color:#f92672">]</span> --signaling-key <span style="color:#f92672">[</span>シグナリングキー<span style="color:#f92672">]</span>
 </code></pre></div><p><code>cat</code>でシリアルポートを覗きます．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /dev/pts/2
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /dev/pts/2
 </code></pre></div>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/GnWfptz4fR0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -234,15 +267,31 @@ make <span style="color:#f92672">&amp;&amp;</span> sudo make install
 <p><a href="https://github.com/OpenAyame/ayame-web-sdk"> OpenAyame/ayame-web-sdk </a></p>
 <p>
 
+
+	
+
+
 	
 
 
 
 	
-	<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/controller.jpg">
-		<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/controller_huc684a1e9a4c552ea6fb29923fbe21ce6_106313_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px);">
-	</a>
-<br>
+	<figure style="display: inline-block;
+	border: thin #000000 solid;
+	border-radius: 8px;
+    padding: 10px;
+	margin: 5px;
+    max-width: 500px;
+	box-shadow: 0px 0px 10px gray;
+	background: radial-gradient(rgb(24, 24, 24) 0%, rgb(255, 255, 255) 80%);;
+	">
+		<figcaption style="font: sans-serif;"></figcaption>
+		
+		<a href="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/controller.jpg">
+			<img src="https://npeeech.github.io/blog/camera_car_concept_using_webrtc/controller_huc684a1e9a4c552ea6fb29923fbe21ce6_106313_500x500_fit_q70_box.jpg" alt="" style="width: min(100%, 500px); vertical-align: bottom;border: thin#000000 solid;">
+		</a>
+	</figure>
+ <br>
 制作途中のコントローラー</p>
 
 

@@ -13,6 +13,7 @@
     
     
     
+    
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B091BVYLCR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -115,16 +116,16 @@
 <h2 id="音声がうまく取れない">音声がうまく取れない</h2>
 <p><a href="https://signal-flag-z.blogspot.com/2016/09/rapberry-pi-3-h264omxffmpeg.html">こちらの記事</a>を参考にさせていただいたところ、どうもRaspbian Buster環境もしくは最新(2019年12月当時)のffmpeg,ALSA環境だとエラーが出るようです．
 以下のような引数で実行したところ，以下のようなエラーが出ました．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -f alsa -thread_queue_size <span style="color:#ae81ff">8192</span> -i hw:1,0 <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -f alsa -thread_queue_size <span style="color:#ae81ff">8192</span> -i hw:1,0 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  -f v4l2 -thread_queue_size <span style="color:#ae81ff">8192</span> -s 640x480 -i /dev/video0 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  -c:v h264_omx -b:v 768k <span style="color:#ae81ff">\ </span> 
   -c:a aac <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  output.mp4 
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cannot set channel count to <span style="color:#ae81ff">2</span> <span style="color:#f92672">(</span>Invalid argument<span style="color:#f92672">)</span> hw:1,0: Input/output error
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cannot set channel count to <span style="color:#ae81ff">2</span> <span style="color:#f92672">(</span>Invalid argument<span style="color:#f92672">)</span> hw:1,0: Input/output error
 </code></pre></div><h2 id="解決策">解決策．</h2>
 <p>おそらくバージョンアップ等により引数の形が変わったのでしょう．
 以下のような引数にしたところ、正常に動作して音声もとれていました．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -f alsa -thread_queue_size <span style="color:#ae81ff">8192</span> -i plughw:1,0 <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -f alsa -thread_queue_size <span style="color:#ae81ff">8192</span> -i plughw:1,0 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span> -f v4l2 -thread_queue_size <span style="color:#ae81ff">8192</span> -s 640x480 -i /dev/video0 <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span> -c:v h264_omx -b:v 768k <span style="color:#ae81ff">\ </span>
  -c:a aac <span style="color:#ae81ff">\

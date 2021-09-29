@@ -1,130 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://npeeech.github.io/blog/archives/2021-09/</loc>
+    <lastmod>2021-09-29T13:31:51+09:00</lastmod>
+  </url><url>
+    <loc>https://npeeech.github.io/blog/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</loc>
+    <lastmod>2021-09-29T13:31:51+09:00</lastmod>
+  </url><url>
+    <loc>https://npeeech.github.io/blog/archives/</loc>
+    <lastmod>2021-09-29T13:31:51+09:00</lastmod>
+  </url><url>
+    <loc>https://npeeech.github.io/blog/tags/</loc>
+    <lastmod>2021-09-29T13:31:51+09:00</lastmod>
+  </url><url>
+    <loc>https://npeeech.github.io/blog/oven_dries_silicagel/</loc>
+    <lastmod>2021-09-29T13:31:51+09:00</lastmod>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2021-06/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://npeeech.github.io/blog/archives/</loc>
-    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/arduino/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/linux/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/raspberry-pi/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://npeeech.github.io/blog/tags/</loc>
-    <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/camera_car_using_webrtc/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2021-06-26T22:31:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/</loc>
     <lastmod>2021-03-15T22:59:31+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2020-12/</loc>
     <lastmod>2020-12-17T16:44:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/kkhmf_usb_to_uart_ttl_rs232_pl2303hx/</loc>
     <lastmod>2020-12-17T16:44:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/transfer_files_with_serial_console_on_raspi/</loc>
     <lastmod>2020-12-17T16:24:35+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</loc>
     <lastmod>2020-12-08T12:19:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/</loc>
     <lastmod>2020-12-08T12:19:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2020-08/</loc>
     <lastmod>2020-08-01T16:10:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/middle_click_of_thinpad_scroll_only/</loc>
     <lastmod>2020-08-01T16:10:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/disable_middle_click_paste/</loc>
     <lastmod>2020-08-01T15:15:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2020-06/</loc>
     <lastmod>2020-06-15T21:35:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/fpga/</loc>
     <lastmod>2020-06-15T21:35:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/play_with_tang_primer/</loc>
     <lastmod>2020-06-15T21:35:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2019-12/</loc>
     <lastmod>2019-12-15T22:09:19+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/picamera_ffmpeg/</loc>
     <lastmod>2019-12-15T22:09:19+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/archives/2019-01/</loc>
     <lastmod>2019-01-15T22:17:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/made_doraemons_hand/</loc>
     <lastmod>2019-01-15T22:17:05+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://npeeech.github.io/blog/tags/%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2019-01-15T22:17:05+09:00</lastmod>
   </url>
-  
 </urlset>
