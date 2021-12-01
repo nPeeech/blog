@@ -9,7 +9,7 @@ googleAnalytics = "G-B091BVYLCR"
 
 [params]
     AuthorName = "nPeeech"
-    IframeAccessCounterUrl = "https://script.google.com/macros/s/AKfycbzJzZHSEreUpSc9U9hroEUI3g4jJXierBqPC56LyCYEqHzL0f56LdL7yyuuImrVz4ZtbQ/exec"
+    IframeAccessCounterUrl = "https://script.google.com/macros/s/AKfycbyr8Uzn2HXNrW9NRADOZpXeYSdVm1Dn0Il5mIrl2_gSqGY8a9IOjwEup11024j2I7kY-A/exec"
 [taxonomies]
     tag = "tags"
     archive = "archives"
