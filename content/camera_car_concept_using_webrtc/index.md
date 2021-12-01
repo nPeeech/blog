@@ -43,7 +43,7 @@ AndroidのChromeのアドレスバー以下を入力します．
 <Raspberry PiのIPアドレス>:8080/html/test.html
 ```
 すると以下のようなページが表示されます．  
-{{< img500 "momop2p.jpg" >}}  
+{{< imgXX "momop2p.jpg" >}}  
 Connectを押すことでカメラの映像が表示されます．
 {{< youtube "jaVhUnFPHpg" >}}  
 低遅延です．  
@@ -53,7 +53,7 @@ WebRTCでP2P接続するためには，お互いの情報をお互いに渡し�
 ローカルで動かすtestモードでは、Momoがシグナリングサーバーになっていたのですが，今回はMomoと同じく時雨堂様が開発している[Ayame Labo](https://ayame-labo.shiguredo.jp/)を使い，<s>Raspberry Pi</s>UbuntuとAndroid端末がLAN内になくても接続できるようにします．
 
 けしからんネットワークにより，手元のRaspberry Piではうまく接続ができないので，長野県にいる知人に頼んで，Ubuntuで動かしてもらいました．  
-{{< img500 "naganoken.jpg" >}}  
+{{< imgXX "naganoken.jpg" >}}  
 
 ### 知人のUbuntu上で環境構築
 Momoのインストールは省きます．
@@ -137,5 +137,5 @@ cat /dev/pts/2
 
 [ OpenAyame/ayame-web-sdk ](https://github.com/OpenAyame/ayame-web-sdk)  
 
-{{< img500 "controller.jpg" >}}  
+{{< imgXX "controller.jpg" >}}  
 制作途中のコントローラー

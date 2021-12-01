@@ -16,7 +16,7 @@ tags:
 
 
 ## 構成
-{{< img500 minibros_diagram2.png>}}  
+{{< imgXX minibros_diagram2.png>}}  
 - Raspberry Piに取り付けた専用のカメラで映像の送る
 - Raspberry Piは、コントローラーから送信された移動用モーターを制御するコマンドをArdunoにそのまま渡す
 - 映像とコマンドのやり取りには[Momo](https://github.com/shiguredo/momo)を使う
@@ -26,19 +26,19 @@ tags:
 ## 制作過程
 とりあえず、Arduinoとモータードライバでモーターを動かしてみました。  
 なるべく小さくしようとモータードライバのターミナルブロックを下向きにつけているのですが、シルクのプリントが表にしかないので、VccとGNDを逆に接続してしまい一つ壊しています。  
-{{< img500 arduino_motordriver.jpg >}}  
+{{< imgXX arduino_motordriver.jpg >}}  
 
 Arduino、Raspberry Pi、モータードライバ、レベル変換モジュールを接続するだけの基板なので単純な配線です。（一度失敗してやけくそでやったものなので、配線がアレですが）  
 [なんとなくな配線図](https://github.com/nPeeech/MiniBros/blob/main/Circuits/circuit.svg)もあります。  
-{{< img500 circuit.jpg >}}  
+{{< imgXX circuit.jpg >}}  
 
 モータードライバを壊して到着を待っている間に組んでみたところです。後ろのPCにはコントローラーが表示されています。Raspberry Piのカメラの映像です。  
-{{< img500 non_motor_driver.jpg >}}  
+{{< imgXX non_motor_driver.jpg >}}  
 
 数日後、モータードライバーが届いたので完成しました。ちなみに、Arduino microも破壊して書き込めなくなりましたが、こちらはもともと2つ持っていたので事なきを得ました。Raspberry Piとモバイルバッテリーの接続が非常に汚いですが、めんどくさくなってこうなりました。  
-{{< img500 minibros1.jpg >}}
-{{< img500 minibros2.jpg >}}
-{{< img500 minibros2.jpg >}}
+{{< imgXX minibros1.jpg >}}
+{{< imgXX minibros2.jpg >}}
+{{< imgXX minibros2.jpg >}}
 
 ## 走行風景
 画質が酷いのは、600円の怪しいPi cameraを使っているためです。安かったからね、仕方ないね。操作はWASDで行えるようにしています。

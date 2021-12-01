@@ -29,7 +29,7 @@ http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=225&pcid=41
 [Prolific PL-2303 Code 10 Fix](http://www.ifamilysoftware.com/news37.html)  
 
 動いた  
-{{< img500 device_property.png >}}  
+{{< imgXX device_property.png >}}  
 
 ## Raspberry PiのSerial Portをenableする
 SSHが使えたので，`sudo raspi-config`から`Interface Option` -> `Serial Port`で有効化させた．
@@ -45,7 +45,7 @@ Raspberry PiのGPIOは以下のサイトが見やすかった．
 https://pinout.xyz/  
 
 これらを参考に接続し，以下のようになった．  
-{{< img500 RPipin.jpg >}}  
+{{< imgXX RPipin.jpg >}}  
 
 あとはWindows側でTera Term等を使えば接続できるはずである．
 

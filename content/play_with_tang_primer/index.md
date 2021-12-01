@@ -30,10 +30,10 @@ TANG PriMERとは，AIやら仮想通貨採掘やらで話題なFPGAというや
 https://dl.sipeed.com/TANG/Primer/IDE  
 - 適当にハッシュ値をチェックをします．
   
-{{< img500 "td_installer.png" >}}  
+{{< imgXX "td_installer.png" >}}  
 インストーラーを起動したら中国語でちょっとびっくりしました．  
 すべてNextっぽいボタンを押しておきました．  
-{{< img500 "td_screenshot.jpg" >}}  
+{{< imgXX "td_screenshot.jpg" >}}  
 IDE本体は英語のようで安心しました．  
 
 ##  ドライバーを入れる  
@@ -50,11 +50,11 @@ IDE本体は英語のようで安心しました．
 ### 新しいプロジェクトを作るよ
 早速IDEを起動して，Project>New Projectします．  
 乗っているチップがAnlogic Technologies EG4S20という名前なのでそれっぽいのを選びます．  
-{{< img500 "td_new_proj_wizard.png" >}}  
+{{< imgXX "td_new_proj_wizard.png" >}}  
 ...たくさんありますね．  
 [秋月](http://akizukidenshi.com/catalog/g/gM-14786/)を見たところFPGA：EG4S20BG256とあったので助かりました．
 ありがとう秋月！  
-{{< img500 "td_new_proj_wizard2.png" >}}  
+{{< imgXX "td_new_proj_wizard2.png" >}}  
 
 ### ソースファイルを追加
 公式に使い方があったのでそっちを見ながらやっていきます．  
@@ -62,16 +62,16 @@ https://tang.sipeed.com/en/using-tang/using-gpio/
 
 - 左側のHierarchyを右クリック，New Sourceで適当な名前を付けてソースファイルを追加します．   
 - とりあえず公式のコードを借ります．  
-{{< img500 "td_hello_code.png" >}}  
+{{< imgXX "td_hello_code.png" >}}  
 なんとなくボタンを押したらLEDが光りそうなコードに思えます．  
 
 ## 物理ピンをIOポートに割り当てる必要があるそうです．  
 早速ボタンを押してみたいですが，まだやることがあるようです．  
 
 - IO Containsをダブルクリックします．  
-{{< img500 "td_io.png" >}}  
+{{< imgXX "td_io.png" >}}  
 - [サンプルコード](https://github.com/Lichee-Pi/Tang_FPGA_Examples/blob/master/0.LED/constraint/io.adc)を参考にそれっぽいピンを選択します．  
-{{< img500 "td_io2.png" >}}  
+{{< imgXX "td_io2.png" >}}  
 このようにしました．Bankとは何なのでしょう...  
 
 適当な名前を付けて保存します．  
@@ -85,7 +85,7 @@ https://tang.sipeed.com/en/using-tang/using-gpio/
 - Addアイコンを押し，[Project名].bitファイルを選択します．  
 - Runアイコンを押すと書き込まれるようです．  
 この時に上部のModeがJTAGだと電源を落としたら消える書き込み，PROGEAM FLASHだと電源を切っても消えない書き込みになるようです．(多分)  
-{{< img500 "td_flash.png" >}}  
+{{< imgXX "td_flash.png" >}}  
 とりあえずJTAG Modeで書き込んでみました．  
 
 ### 動いた
