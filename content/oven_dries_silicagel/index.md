@@ -3,7 +3,7 @@ title: "オーブンでシリカゲルを乾燥させる"
 date: 2021-09-29T13:31:51+09:00
 draft: false
 images: 
-    - silicagel_30min.jpg
+    - "oven_dries_silicagel/silicagel_blue.jpg"
 archives: 2021-09
 tags: 
     - 3Dプリンタ
