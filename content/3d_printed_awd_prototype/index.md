@@ -3,7 +3,7 @@ title: "3Dプリンタで作った4WDの試作機"
 date: 2021-12-19T08:26:18+09:00
 draft: true
 images:
-    - imgs/overview/top.jpg
+    - 3d_printed_awd_prototype/imgs/thumbnail.jpg
 archives: 2021-12
 tags: 
     - 3Dプリンタ

@@ -2,8 +2,6 @@
 title: "WebRTCを使ったカメラ付きラジコンカーを作った"
 date: 2021-06-26T22:31:13+09:00
 draft: false
-images: 
-  - camera_car_using_webrtc/thumbnail.jpg
 archives: 2021-06
 tags:
     - Raspberry Pi
