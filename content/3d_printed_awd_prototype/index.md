@@ -1,7 +1,7 @@
 ---
-title: "3Dプリンタで作った4WDの試作機"
-date: 2021-12-19T08:26:18+09:00
-draft: true
+title: "3Dプリンタで作った4WDの試作車を紹介する"
+date: 2021-12-21T08:26:18+09:00
+draft: false
 images:
     - 3d_printed_awd_prototype/imgs/thumbnail.jpg
 archives: 2021-12
@@ -96,7 +96,7 @@ GF Gear Generator](https://apps.autodesk.com/FUSION/en/Detail/Index?id=123677894
 
 
 
-### モーターのトルクで車体が振動する
+### 車体が振動する
 
 1. タイヤの回転に負荷がかかる
 2. ギヤーボックスが自らの力でプロペラシャフトの回転と逆の方向に回転をはじめる
@@ -118,7 +118,7 @@ GF Gear Generator](https://apps.autodesk.com/FUSION/en/Detail/Index?id=123677894
 
 
 ## 次期4WD
-現在，試作機から得られたknow-howを生かして新しい機体を設計中です．興味が変わっていなければ来年度のマイスターでカメラ載せたりするかなと思っていたりいなかったり...
+現在，試作機から得られたknow-howを生かして新しい機体を設計中です．興味が移っていなければ来年度のマイスターでカメラ載せたりするかなと思っていたりいなかったり...
 
 製作中のモデル
 {{< 3dmodel "4WDv2.glb" >}}

@@ -6,7 +6,16 @@
     <description>Recent content in 3Dプリンタ on いつか黒歴史</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 29 Sep 2021 13:31:51 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 08:26:18 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3Dプリンタで作った4WDの試作車を紹介する</title>
+      <link>https://npeeech.github.io/blog/3d_printed_awd_prototype/</link>
+      <pubDate>Tue, 21 Dec 2021 08:26:18 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/3d_printed_awd_prototype/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2021の21日目の記事です． 今年の7月に3DプリンタのELEGOO NEPTUNE 2を購入しました．今回は，</description>
+    </item>
+    
     <item>
       <title>オーブンでシリカゲルを乾燥させる</title>
       <link>https://npeeech.github.io/blog/oven_dries_silicagel/</link>
