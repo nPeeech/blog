@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022-12 on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/archives/2022-12/</link>
+    <description>Recent content in 2022-12 on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 09 Dec 2022 20:30:47 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/archives/2022-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自転車用ライトPanasonic NRS300の分解</title>
+      <link>https://npeeech.github.io/blog/nrs300_disassembly/</link>
+      <pubDate>Fri, 09 Dec 2022 20:30:47 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/nrs300_disassembly/</guid>
+      <description>はじめに この記事は自転車用ライトNRS300を修理するために分解した筆者の備忘録です． 分解方法 分解方法はとても簡単です． 以下に示すようにプラ</description>
+    </item>
+    
+  </channel>
+</rss>

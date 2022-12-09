@@ -78,7 +78,6 @@
 <meta property="article:published_time" content="2020-12-17T16:24:35+09:00" />
 <meta property="article:modified_time" content="2020-12-17T16:24:35+09:00" />
 
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="RaspberryPiとシリアルコンソールでファイルを送受信する"/>
 <meta name="twitter:description" content="※メモです 動機 SSHが使いにくい環境なので，シリアルコンソールで作業をしているのだが，ファイルの送受信の仕方がわからなかったのでメモとして残"/>
@@ -158,13 +157,13 @@
 <p>後継のようなのでZMODEMを使うことにする．</p>
 <h2 id="raspberry-pi側の準備">Raspberry Pi側の準備</h2>
 <p>インストール</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
-sudo apt upgrade
-sudo apt install lrzsz
-</code></pre></div><h2 id="tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt upgrade
+</span></span><span style="display:flex;"><span>sudo apt install lrzsz
+</span></span></code></pre></div><h2 id="tera-term---raspberry-pi">Tera Term -&gt; Raspberry Pi</h2>
 <p>Raspberry Pi側が以下で受信状態に入る．</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rz
-</code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>送信</code>からファイルを選択する．<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rz
+</span></span></code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>送信</code>からファイルを選択する．<br>
 
 
 
@@ -195,8 +194,8 @@ sudo apt install lrzsz
  </p>
 <h2 id="raspberry-pi---tera-term">Raspberry Pi -&gt; Tera Term</h2>
 <p>Raspberry Pi側でファイルを送信する．</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sz <span style="color:#f92672">[</span>ファイル名<span style="color:#f92672">]</span>
-</code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>受信</code> からファイルを選択する．<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sz <span style="color:#f92672">[</span>ファイル名<span style="color:#f92672">]</span>
+</span></span></code></pre></div><p>Tera Termで<code>ファイル</code> -&gt; <code>転送</code> -&gt; <code>ZMODEM</code> -&gt; <code>受信</code> からファイルを選択する．<br>
 
 
 
@@ -231,7 +230,7 @@ sudo apt install lrzsz
 
         </div><footer>
     <p id="copyright">
-        &copy; 2021 nPeeech.
+        &copy; 2022 nPeeech.
     </p>
 </footer></body>
 </html>

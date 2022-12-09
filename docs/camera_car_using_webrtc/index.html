@@ -74,14 +74,12 @@
     <meta property="og:title" content="WebRTCを使ったカメラ付きラジコンカーを作った" />
 <meta property="og:description" content="はじめに この記事は、WebRTCを使ったカメラ付きラジコンカーをつくりたいを実際に作ってみたというものです。つまり、カメラの付いたラジコン（" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://npeeech.github.io/blog/camera_car_using_webrtc/" /><meta property="og:image" content="https://npeeech.github.io/blog/camera_car_using_webrtc/thumbnail.jpg" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://npeeech.github.io/blog/camera_car_using_webrtc/" /><meta property="og:image" content="https://npeeech.github.io/blog/camera_car_using_webrtc/thumbnail.jpg"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-06-26T22:31:13+09:00" />
 <meta property="article:modified_time" content="2021-06-26T22:31:13+09:00" />
 
-
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://npeeech.github.io/blog/camera_car_using_webrtc/thumbnail.jpg"/>
-
 <meta name="twitter:title" content="WebRTCを使ったカメラ付きラジコンカーを作った"/>
 <meta name="twitter:description" content="はじめに この記事は、WebRTCを使ったカメラ付きラジコンカーをつくりたいを実際に作ってみたというものです。つまり、カメラの付いたラジコン（"/>
 
@@ -381,8 +379,8 @@
 <p>Arduino Unoでは、SerialクラスがGPIOのRX、TXとUSBシリアルで共有されていますが、Arduino microでは独立しておりSerial0クラスはUSBシリアル、Serial1クラスはGPIOのRX、TXになってます。これをまったく知らなくて1時間近く詰まっていました。</p>
 <h3 id="momoの起動コマンド">Momoの起動コマンド</h3>
 <p>serialオプションを付けて、<code>/dev/serial0</code>を指定することで、datachannelを使って送信された内容がArdunoに渡されます。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./momo --no-audio-device --serial /dev/serial0,9600 --force-i420 --hw-mjpeg-decoder true ayame wss://ayame-labo.shiguredo.jp/signaling &lt;username&gt;@&lt;roomId&gt; --signaling-key &lt;signaling key&gt;
-</code></pre></div><h2 id="使用したもの">使用したもの</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./momo --no-audio-device --serial /dev/serial0,9600 --force-i420 --hw-mjpeg-decoder true ayame wss://ayame-labo.shiguredo.jp/signaling &lt;username&gt;@&lt;roomId&gt; --signaling-key &lt;signaling key&gt;
+</span></span></code></pre></div><h2 id="使用したもの">使用したもの</h2>
 <ul>
 <li>
 <p>部品</p>
@@ -459,7 +457,7 @@
 
         </div><footer>
     <p id="copyright">
-        &copy; 2021 nPeeech.
+        &copy; 2022 nPeeech.
     </p>
 </footer></body>
 </html>
