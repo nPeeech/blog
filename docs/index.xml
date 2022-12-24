@@ -8,6 +8,15 @@
     <language>ja-jp</language>
     <lastBuildDate>Mon, 15 Mar 2021 22:59:31 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>はじめてのプリント基板の設計と発注</title>
+      <link>https://npeeech.github.io/blog/first_pcb/</link>
+      <pubDate>Sat, 24 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/first_pcb/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2022の24日目の記事です。 授業などで回路設計 → ブレッドボードやユニバーサル基板に実装は経験し</description>
+    </item>
+    
+    <item>
       <title>自転車用ライトPanasonic NRS300の分解</title>
       <link>https://npeeech.github.io/blog/nrs300_disassembly/</link>
       <pubDate>Fri, 09 Dec 2022 20:30:47 +0900</pubDate>

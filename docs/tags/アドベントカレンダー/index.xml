@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アドベントカレンダー on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/tags/%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</link>
+    <description>Recent content in アドベントカレンダー on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/tags/%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はじめてのプリント基板の設計と発注</title>
+      <link>https://npeeech.github.io/blog/first_pcb/</link>
+      <pubDate>Sat, 24 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/first_pcb/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2022の24日目の記事です。 授業などで回路設計 → ブレッドボードやユニバーサル基板に実装は経験し</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,9 @@
 ---
 title: "はじめてのプリント基板の設計と発注"
 date: 2022-12-24T00:00:00+09:00
-draft: true
+draft: false
+images:
+    - first_pcb/imgs/thumbnail.jpg
 archives: 2022-12
 tags:
     - 電子工作
@@ -52,7 +54,7 @@ KiCadの学習リソースを検索すると「KiCadことはじめ」という�
 | *割引（円）* | 199    | 0    |
 | *合計（円）* | 729    | 464    |
 
-{{<imgXX "imgs/redpcb_invoice.png" "1枚目の基板">}}  
+{{<imgXX "imgs/redpcb_invoice.png" "1枚目の基板">}}
 {{<imgXX "imgs/yellowpcb_invoce.png" "2枚目の基板">}}
 
 ## 発注から到着まで
@@ -66,9 +68,9 @@ KiCadの学習リソースを検索すると「KiCadことはじめ」という�
 ## 到着した基板
 
 以下が出来立てほやほや（？）の基板たちの写真です。
-{{<imgXX "imgs/redpcb.jpg">}}  
-{{<imgXX "imgs/yellowpcb_top.jpg">}}
-{{<imgXX "imgs/yellowpcb_back.jpg">}}
+{{<imgXX "imgs/redpcb.jpg" "初版">}}  
+{{<imgXX "imgs/yellowpcb_top.jpg" "改良版　表">}}
+{{<imgXX "imgs/yellowpcb_back.jpg" "改良版　裏">}}
 
 ## 最後に
 
