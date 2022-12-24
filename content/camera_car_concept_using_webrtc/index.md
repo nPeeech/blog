@@ -7,6 +7,7 @@ tags:
     - 環境構築シリーズ
     - Raspberry Pi
     - Linux
+    - アドベントカレンダー
 ---
 ## はじめに
 この記事は[東京高専プロコンゼミ① Advent Calendar 2020](https://adventar.org/calendars/5509)の10日目です．

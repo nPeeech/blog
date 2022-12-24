@@ -16,5 +16,23 @@
       <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2022の24日目の記事です。 授業などで回路設計 → ブレッドボードやユニバーサル基板に実装は経験し</description>
     </item>
     
+    <item>
+      <title>3Dプリンタで作った4WDの試作車を紹介する</title>
+      <link>https://npeeech.github.io/blog/3d_printed_awd_prototype/</link>
+      <pubDate>Tue, 21 Dec 2021 08:26:18 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/3d_printed_awd_prototype/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2021の21日目の記事です． 今年の7月に3DプリンタのELEGOO NEPTUNE 2を購入しました．今回は，</description>
+    </item>
+    
+    <item>
+      <title>WebRTCを使ったカメラ付きラジコンカーをつくりたい</title>
+      <link>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</link>
+      <pubDate>Tue, 08 Dec 2020 12:19:48 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/camera_car_concept_using_webrtc/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2020の10日目です． WebRTC Native Client MomoとRaspberry Piを使って，遠くから操作できるカメラ</description>
+    </item>
+    
   </channel>
 </rss>

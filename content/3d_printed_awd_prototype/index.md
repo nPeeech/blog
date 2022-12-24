@@ -7,6 +7,7 @@ images:
 archives: 2021-12
 tags: 
     - 3Dプリンタ
+    - アドベントカレンダー
 ---
 ## はじめに
 この記事は[東京高専プロコンゼミ① Advent Calendar 2021](https://adventar.org/calendars/6568)の21日目の記事です．
