@@ -89,5 +89,5 @@ https://tang.sipeed.com/en/using-tang/using-gpio/
 とりあえずJTAG Modeで書き込んでみました．  
 
 ### 動いた
-{{< tweet 1277942804996448257>}}  
+{{< tweet user="nPeeech" id="1277942804996448257">}}  
 Verilog学んで本格的に遊んでいきたいです．やはり基板やICは見てると興奮してきますね．  
