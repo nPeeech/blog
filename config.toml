@@ -6,6 +6,7 @@ hasCJKLanguage = true
 publishDir = "docs"
 canonifyurls = true
 googleAnalytics = "G-B091BVYLCR"
+staticDir = ['static']
 
 [params]
     AuthorName = "nPeeech"

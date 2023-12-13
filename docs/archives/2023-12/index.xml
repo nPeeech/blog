@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-12 on いつか黒歴史</title>
+    <link>https://npeeech.github.io/blog/archives/2023-12/</link>
+    <description>Recent content in 2023-12 on いつか黒歴史</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 13 Dec 2023 01:00:00 +0900</lastBuildDate><atom:link href="https://npeeech.github.io/blog/archives/2023-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3Dプリンタでカメラ付き4WDを作った STLファイル配布</title>
+      <link>https://npeeech.github.io/blog/3d_printed_awd/</link>
+      <pubDate>Wed, 13 Dec 2023 01:00:00 +0900</pubDate>
+      
+      <guid>https://npeeech.github.io/blog/3d_printed_awd/</guid>
+      <description>はじめに この記事は東京高専プロコンゼミ① Advent Calendar 2023の13日目の記事です． 以前から3Dプリンタで作成していた4WDのラジコンのようなものが完</description>
+    </item>
+    
+  </channel>
+</rss>

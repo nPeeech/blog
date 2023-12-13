@@ -6,5 +6,4 @@ draft: false
 | | |
 |-|-|
 |H/N|nPeeech|
-|Twitter|[@nPeeech](https://twitter.com/nPeeech)|
-|GitHub|[nPeeech](https://github.com/nPeeech)|
+|X|[@nPeeech](https://twitter.com/nPeeech)|
