@@ -7,6 +7,8 @@ tags:
     - 3Dプリンタ
     - アドベントカレンダー
     - 電子工作
+images:
+    - "3d_printed_awd/imgs/thumbnail.jpg"
 ---
 ## はじめに
 この記事は[東京高専プロコンゼミ① Advent Calendar 2023](https://adventar.org/calendars/8825)の13日目の記事です．
